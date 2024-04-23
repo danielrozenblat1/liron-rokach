@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url('./Rubik-VariableFont_wght.ttf') format('truetype');
+    font-weight: bold ;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'RubikR';
+    src: url('./Rubik-VariableFont_wght.ttf') format('truetype');
+    font-weight: light ;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: 'Noto';
+    src: url('./NotoSansHebrew-VariableFont_wdth,wght.ttf') format('truetype');
+    font-weight: bold ;
+    font-style: normal;
+  }
+@font-face {
+    font-family: 'NotoR';
+    src: url('./NotoSansHebrew-VariableFont_wdth,wght.ttf') format('truetype');
+    font-weight: light ;
+    font-style: normal;
+  }

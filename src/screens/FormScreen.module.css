@@ -1,0 +1,543 @@
+
+    
+    .title{
+        font-size:3rem;
+        font-family: "Rubik";
+        text-align: center;
+        margin:2% auto;
+        direction:rtl;
+        color: white;
+        text-shadow: 12px 2px 4px rgba(0, 0, 0, 0.414);
+    }
+    .center{
+        grid-template-columns: repeat(1, auto); /* Two items per row */
+      display: flex;
+        width:50%;
+        margin: 2% auto;
+    }
+    .form{
+        width:80vw;
+        height:auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+      margin:2% auto;
+     
+    }
+    .row {
+        display: grid;
+        grid-template-columns: repeat(2, auto); /* Two items per row */
+        justify-content: space-evenly; /* Align items to the end (right side) */
+        gap: 30px; /* Gap between items */
+        direction: rtl; /* Right-to-left direction */
+        margin:2% auto;
+   
+    }
+    .input {
+
+   background: linear-gradient(190deg, rgba(255,255,255,1) 0%, rgba(220, 180, 255, 0.979) 50%, rgba(255,255,255,1) 100%);
+        box-shadow: 0 0 8px 2px rgb(144, 144, 144);
+        height: 3.5rem;
+        width: 18rem;
+        border-radius: 10px;
+        margin: 2% auto;
+        font-family: "RubikR";
+        font-size: 16px;
+        border: none;
+        padding: 0 10px;
+        direction: rtl;
+        /* Additional box shadow */
+       
+    }
+    .input::placeholder{
+        color: rgb(0, 0, 0);
+        font-family: "RubikR";
+       
+    }
+    .input:focus{
+        border: none ;
+        outline: none;
+    }
+    .button{
+background: white;
+        height:3rem;
+        width:100%;
+        background: radial-gradient(circle, rgba(255, 227, 205, 0.907) 0%, rgba(255,244,0,0.7086484251903886) 100%);
+        box-shadow: 0 0 8px 2px rgb(255, 195, 187);
+        border-radius: 10px;
+        margin:2% auto;
+        cursor: pointer;
+        font-family: "RubikR";
+        font-size: 16px;
+        border: none;
+        direction: rtl;
+        transition: all ease-out 1s;
+    }
+    .button:hover{
+    transform: scale(1.1);
+  
+    }
+    
+    @media only screen and (max-width: 350px){
+      
+            
+    
+    .title{
+        font-size:1.6rem;
+        font-family: "Rubik";
+        text-align: center;
+        margin:2% auto;
+        direction:rtl;
+        color: white;
+        width:80%;
+        text-shadow: 12px 2px 4px rgba(0, 0, 0, 0.414);
+    }
+    .center{
+        grid-template-columns: repeat(1, auto); /* Two items per row */
+      display: flex;
+        width:50%;
+        margin: 2% auto;
+    }
+    .form{
+        width:100vw;
+        height:auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+      margin:2% auto;
+     
+    }
+    .row {
+display: flex;
+flex-direction: column;
+    }
+    .input {
+        background: rgb(255,255,255);
+        background: linear-gradient(190deg, rgba(255,255,255,1) 0%, rgba(220, 180, 255, 0.979) 50%, rgba(255,255,255,1) 100%);
+        /* background: radial-gradient(circle, rgba(255,201,159,0.7030461842940301) 0%, rgba(255,244,0,0.7086484251903886) 100%); */
+        box-shadow: 0 0 8px 2px rgba(255, 255, 255, 0.547);
+        height: 3rem;
+        width:85dvw;
+        border-radius: 10px;
+        margin: 2% auto;
+        font-family: "RubikR";
+        font-size: 16px;
+        border: none;
+        padding: 0 10px;
+        direction: rtl;
+        /* Additional box shadow */
+       
+    }
+    .input::placeholder{
+        color: rgb(0, 0, 0);
+        font-family: "RubikR";
+       
+    }
+    .input:focus{
+        border: none ;
+        outline: none;
+    }
+    .button{
+background: white;
+        height:3rem;
+        width:100%;
+        background: radial-gradient(circle, rgba(255,201,159,0.7030461842940301) 0%, rgba(255,244,0,0.7086484251903886) 100%);
+        box-shadow: 0 0 8px 2px rgb(255, 255, 255);
+        border-radius: 10px;
+        margin:2% auto;
+        cursor: pointer;
+        font-family: "RubikR";
+        font-size: 16px;
+        border: none;
+        direction: rtl;
+        transition: all ease-out 1s;
+    }
+    .button:hover{
+    transform: scale(1.1);
+  
+    }
+    }
+    @media only screen  and (min-width: 350px) and (max-width: 450px){
+     
+    .title{
+        font-size:1.8rem;
+        font-family: "Rubik";
+        text-align: center;
+        margin:2% auto;
+        direction:rtl;
+        color: white;
+        width:80%;
+        text-shadow: 12px 2px 4px rgba(0, 0, 0, 0.414);
+    }
+    .center{
+        grid-template-columns: repeat(1, auto); /* Two items per row */
+      display: flex;
+        width:50%;
+        margin: 2% auto;
+    }
+    .form{
+        width:100vw;
+        height:auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+      margin:2% auto;
+     
+    }
+    .row {
+display: flex;
+flex-direction: column;
+    }
+    .input {
+        background: rgb(255,255,255);
+        background: linear-gradient(190deg, rgba(255,255,255,1) 0%, rgba(220, 180, 255, 0.979) 50%, rgba(255,255,255,1) 100%);
+        /* background: radial-gradient(circle, rgba(255,201,159,0.7030461842940301) 0%, rgba(255,244,0,0.7086484251903886) 100%); */
+        box-shadow: 0 0 8px 2px rgba(255, 255, 255, 0.547);
+        height: 3.2rem;
+        width:80dvw;
+        border-radius: 10px;
+        margin: 2% auto;
+        font-family: "RubikR";
+        font-size: 16px;
+        border: none;
+        padding: 0 10px;
+        direction: rtl;
+        /* Additional box shadow */
+       
+    }
+    .input::placeholder{
+        color: rgb(0, 0, 0);
+        font-family: "RubikR";
+       
+    }
+    .input:focus{
+        border: none ;
+        outline: none;
+    }
+    .button{
+background: white;
+        height:3rem;
+        width:100%;
+        background: radial-gradient(circle, rgba(255,201,159,0.7030461842940301) 0%, rgba(255,244,0,0.7086484251903886) 100%);
+        box-shadow: 0 0 8px 2px rgb(255, 255, 255);
+        border-radius: 10px;
+        margin:2% auto;
+        cursor: pointer;
+        font-family: "RubikR";
+        font-size: 16px;
+        border: none;
+        direction: rtl;
+        transition: all ease-out 1s;
+    }
+    .button:hover{
+    transform: scale(1.1);
+  
+    }
+    }
+    @media only screen  and (min-width: 450px) and (max-width: 550px){
+        .title{
+            font-size:1.8rem;
+            font-family: "Rubik";
+            text-align: center;
+            margin:2% auto;
+            direction:rtl;
+            color: white;
+            width:80%;
+            text-shadow: 12px 2px 4px rgba(0, 0, 0, 0.414);
+        }
+        .center{
+            grid-template-columns: repeat(1, auto); /* Two items per row */
+          display: flex;
+            width:50%;
+            margin: 2% auto;
+        }
+        .form{
+            width:100vw;
+            height:auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+          margin:2% auto;
+         
+        }
+        .row {
+    display: flex;
+    flex-direction: column;
+        }
+        .input {
+            background: rgb(255,255,255);
+            background: linear-gradient(190deg, rgba(255,255,255,1) 0%, rgba(220, 180, 255, 0.979) 50%, rgba(255,255,255,1) 100%);
+            /* background: radial-gradient(circle, rgba(255,201,159,0.7030461842940301) 0%, rgba(255,244,0,0.7086484251903886) 100%); */
+            box-shadow: 0 0 8px 2px rgba(255, 255, 255, 0.547);
+            height: 3.5rem;
+            width:75dvw;
+            border-radius: 10px;
+            margin: 2% auto;
+            font-family: "RubikR";
+            font-size: 16px;
+            border: none;
+            padding: 0 10px;
+            direction: rtl;
+            /* Additional box shadow */
+           
+        }
+        .input::placeholder{
+            color: rgb(0, 0, 0);
+            font-family: "RubikR";
+           
+        }
+        .input:focus{
+            border: none ;
+            outline: none;
+        }
+        .button{
+    background: white;
+            height:3rem;
+            width:100%;
+            background: radial-gradient(circle, rgba(255,201,159,0.7030461842940301) 0%, rgba(255,244,0,0.7086484251903886) 100%);
+            box-shadow: 0 0 8px 2px rgb(255, 255, 255);
+            border-radius: 10px;
+            margin:2% auto;
+            cursor: pointer;
+            font-family: "RubikR";
+            font-size: 16px;
+            border: none;
+            direction: rtl;
+            transition: all ease-out 1s;
+        }
+        .button:hover{
+        transform: scale(1.1);
+      
+        }
+            
+    }
+    @media only screen  and (min-width: 550px) and (max-width: 650px){
+        .title{
+            font-size:2rem;
+            font-family: "Rubik";
+            text-align: center;
+            margin:2% auto;
+            direction:rtl;
+            color: white;
+            width:80%;
+            text-shadow: 12px 2px 4px rgba(0, 0, 0, 0.414);
+        }
+        .center{
+            grid-template-columns: repeat(1, auto); /* Two items per row */
+          display: flex;
+            width:50%;
+            margin: 2% auto;
+        }
+        .form{
+            width:100vw;
+            height:auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+          margin:2% auto;
+         
+        }
+        .row {
+    display: flex;
+    flex-direction: column;
+        }
+        .input {
+            background: rgb(255,255,255);
+            background: linear-gradient(190deg, rgba(255,255,255,1) 0%, rgba(220, 180, 255, 0.979) 50%, rgba(255,255,255,1) 100%);
+            /* background: radial-gradient(circle, rgba(255,201,159,0.7030461842940301) 0%, rgba(255,244,0,0.7086484251903886) 100%); */
+            box-shadow: 0 0 8px 2px rgba(255, 255, 255, 0.547);
+            height: 3.5rem;
+            width:70dvw;
+            border-radius: 10px;
+            margin: 2% auto;
+            font-family: "RubikR";
+            font-size: 16px;
+            border: none;
+            padding: 0 10px;
+            direction: rtl;
+            /* Additional box shadow */
+           
+        }
+        .input::placeholder{
+            color: rgb(0, 0, 0);
+            font-family: "RubikR";
+           
+        }
+        .input:focus{
+            border: none ;
+            outline: none;
+        }
+        .button{
+    background: white;
+            height:3rem;
+            width:100%;
+            background: radial-gradient(circle, rgba(255,201,159,0.7030461842940301) 0%, rgba(255,244,0,0.7086484251903886) 100%);
+            box-shadow: 0 0 8px 2px rgb(255, 255, 255);
+            border-radius: 10px;
+            margin:2% auto;
+            cursor: pointer;
+            font-family: "RubikR";
+            font-size: 16px;
+            border: none;
+            direction: rtl;
+            transition: all ease-out 1s;
+        }
+        .button:hover{
+        transform: scale(1.1);
+      
+        }
+            
+    }
+    @media only screen  and (min-width: 650px) and (max-width: 750px){
+        .title{
+            font-size:2rem;
+            font-family: "Rubik";
+            text-align: center;
+            margin:2% auto;
+            direction:rtl;
+            color: white;
+            width:80%;
+            text-shadow: 12px 2px 4px rgba(0, 0, 0, 0.414);
+        }
+        .center{
+            grid-template-columns: repeat(1, auto); /* Two items per row */
+          display: flex;
+            width:50%;
+            margin: 2% auto;
+        }
+        .form{
+            width:100vw;
+            height:auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+          margin:2% auto;
+         
+        }
+        .row {
+    display: flex;
+    flex-direction: column;
+        }
+        .input {
+            background: rgb(255,255,255);
+            background: linear-gradient(190deg, rgba(255,255,255,1) 0%, rgba(220, 180, 255, 0.979) 50%, rgba(255,255,255,1) 100%);
+            /* background: radial-gradient(circle, rgba(255,201,159,0.7030461842940301) 0%, rgba(255,244,0,0.7086484251903886) 100%); */
+            box-shadow: 0 0 8px 2px rgba(255, 255, 255, 0.547);
+            height: 3.5rem;
+            width:65dvw;
+            border-radius: 10px;
+            margin: 2% auto;
+            font-family: "RubikR";
+            font-size: 16px;
+            border: none;
+            padding: 0 10px;
+            direction: rtl;
+            /* Additional box shadow */
+           
+        }
+        .input::placeholder{
+            color: rgb(0, 0, 0);
+            font-family: "RubikR";
+           
+        }
+        .input:focus{
+            border: none ;
+            outline: none;
+        }
+        .button{
+    background: white;
+            height:3rem;
+            width:100%;
+            background: radial-gradient(circle, rgba(255,201,159,0.7030461842940301) 0%, rgba(255,244,0,0.7086484251903886) 100%);
+            box-shadow: 0 0 8px 2px rgb(255, 255, 255);
+            border-radius: 10px;
+            margin:2% auto;
+            cursor: pointer;
+            font-family: "RubikR";
+            font-size: 16px;
+            border: none;
+            direction: rtl;
+            transition: all ease-out 1s;
+        }
+        .button:hover{
+        transform: scale(1.1);
+      
+        }
+    }
+    @media only screen  and (min-width: 750px) and (max-width: 850px){
+        .title{
+            font-size:2rem;
+            font-family: "Rubik";
+            text-align: center;
+            margin:2% auto;
+            direction:rtl;
+            color: white;
+            width:80%;
+            text-shadow: 12px 2px 4px rgba(0, 0, 0, 0.414);
+        }
+        .center{
+            grid-template-columns: repeat(1, auto); /* Two items per row */
+          display: flex;
+            width:50%;
+            margin: 2% auto;
+        }
+        .form{
+            width:100vw;
+            height:auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+          margin:2% auto;
+         
+        }
+        .row {
+    display: flex;
+    flex-direction: column;
+        }
+        .input {
+            background: rgb(255,255,255);
+            background: linear-gradient(190deg, rgba(255,255,255,1) 0%, rgba(220, 180, 255, 0.979) 50%, rgba(255,255,255,1) 100%);
+            /* background: radial-gradient(circle, rgba(255,201,159,0.7030461842940301) 0%, rgba(255,244,0,0.7086484251903886) 100%); */
+            box-shadow: 0 0 8px 2px rgba(255, 255, 255, 0.547);
+            height: 3.5rem;
+            width:60dvw;
+            border-radius: 10px;
+            margin: 2% auto;
+            font-family: "RubikR";
+            font-size: 16px;
+            border: none;
+            padding: 0 10px;
+            direction: rtl;
+            /* Additional box shadow */
+           
+        }
+        .input::placeholder{
+            color: rgb(0, 0, 0);
+            font-family: "RubikR";
+           
+        }
+        .input:focus{
+            border: none ;
+            outline: none;
+        }
+        .button{
+    background: white;
+            height:3rem;
+            width:100%;
+            background: radial-gradient(circle, rgba(255,201,159,0.7030461842940301) 0%, rgba(255,244,0,0.7086484251903886) 100%);
+            box-shadow: 0 0 8px 2px rgb(255, 255, 255);
+            border-radius: 10px;
+            margin:2% auto;
+            cursor: pointer;
+            font-family: "RubikR";
+            font-size: 16px;
+            border: none;
+            direction: rtl;
+            transition: all ease-out 1s;
+        }
+        .button:hover{
+        transform: scale(1.1);
+      
+        }
+    }
+   
