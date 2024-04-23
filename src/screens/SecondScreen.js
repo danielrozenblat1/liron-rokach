@@ -2,12 +2,12 @@ import { useEffect, useRef } from "react"
 import styles from "./SecondScreen.module.css"
 import { Player } from "@lordicon/react"
 import ScrollReveal from "scrollreveal"
-import noMovement from "../icons/wired-lineal-38-error-cross-simple.json"
+import credit from "../icons/wired-lineal-799-credit-card.json"
 import Button from "../components/button/Button"
-import document from '../icons/wired-lineal-56-document.json'
+import pig from '../icons/wired-lineal-453-savings-pig.json'
 import chart from "../icons/wired-lineal-152-bar-chart-arrow.json"
-import manage from "../icons/wired-lineal-978-project-management.json"
-import crowd from "../icons/wired-lineal-2374-crowdfunding.json"
+import manage from "../icons/wired-lineal-458-goal-target (1).json"
+import quiet from "../icons/wired-lineal-629-yoga-male.json"
 const SecondScreen=()=>{
 
     const playerRef1=useRef()
@@ -64,7 +64,7 @@ const SecondScreen=()=>{
 <div className={styles.step}>
 <div className={styles.icons}>
 <Player ref={playerRef1} size="100%" onComplete={() => playerRef1.current?.playFromBeginning()}
-icon={noMovement}/>
+icon={credit}/>
 </div>
 <div className={styles.text}>
 
@@ -84,7 +84,7 @@ icon={noMovement}/>
 </div>
 <div className={styles.icons}>
 <Player ref={playerRef2} delay={500} size="100%" onComplete={() => playerRef2.current?.playFromBeginning()}
-icon={document}/>
+icon={chart}/>
 </div>
 </div>
 
@@ -93,7 +93,7 @@ icon={document}/>
 <div className={styles.step}>
 <div className={styles.icons}>
 <Player ref={playerRef3} size="100%" onComplete={() => playerRef3.current?.playFromBeginning()}
-icon={crowd}/>
+icon={quiet}/>
 </div>
 <div className={styles.text}>
 
@@ -111,7 +111,7 @@ icon={crowd}/>
 </div>
 <div className={styles.icons}>
 <Player ref={playerRef4} delay={500} size="100%" onComplete={() => playerRef4.current?.playFromBeginning()}
-icon={chart}/>
+icon={pig}/>
 </div>
 </div>
 <div className={styles.step}>

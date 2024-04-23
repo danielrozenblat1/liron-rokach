@@ -5,7 +5,7 @@ const ThirdScreen=()=>{
   
 
 return <>
-<div className={styles.header}>מי אני</div>
+<div className={styles.header} id="קצת עלי">מי אני</div>
 <div className={styles.wrapper}>
 
 
