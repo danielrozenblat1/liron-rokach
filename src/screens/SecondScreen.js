@@ -63,7 +63,11 @@ const SecondScreen=()=>{
 
 <div className={styles.step}>
 <div className={styles.icons}>
-<Player ref={playerRef1} size="100%" onComplete={() => playerRef1.current?.playFromBeginning()}
+<Player ref={playerRef1} size="100%" onComplete={() => {
+    return setTimeout(() => {
+      playerRef1?.current?.playFromBeginning();
+    }, 2500)
+}}
 icon={credit}/>
 </div>
 <div className={styles.text}>
@@ -83,7 +87,11 @@ icon={credit}/>
     <div className={styles.section}> בעל עסק טוב יודע שהוא צריך לדאוג לרווחיות העסק בכל רגע נתון. עם לקוחות שמגיעים בתדירות מתמדת כך גם רווחיות העסק תזנק משמעותית</div>
 </div>
 <div className={styles.icons}>
-<Player ref={playerRef2} delay={500} size="100%" onComplete={() => playerRef2.current?.playFromBeginning()}
+<Player ref={playerRef2} delay={500} size="100%" onComplete={() => {
+    return setTimeout(() => {
+      playerRef2?.current?.playFromBeginning();
+    }, 2500)
+}}
 icon={chart}/>
 </div>
 </div>
@@ -92,7 +100,11 @@ icon={chart}/>
 
 <div className={styles.step}>
 <div className={styles.icons}>
-<Player ref={playerRef3} size="100%" onComplete={() => playerRef3.current?.playFromBeginning()}
+<Player ref={playerRef3} size="100%" onComplete={() => {
+    return setTimeout(() => {
+      playerRef3?.current?.playFromBeginning();
+    }, 2500)
+}}
 icon={quiet}/>
 </div>
 <div className={styles.text}>
@@ -110,13 +122,21 @@ icon={quiet}/>
     <div className={styles.section}>המון בעלי עסקים מחליטים לקחת קורס מזורז בשיווק כדי לחסוך עלויות, ולמעשה גם פוגעים בעסק בכך שעושים עבודה לא נכונה וגם מבזבזים זמן על תחום שהם לא באמת טובים בו.</div>
 </div>
 <div className={styles.icons}>
-<Player ref={playerRef4} delay={500} size="100%" onComplete={() => playerRef4.current?.playFromBeginning()}
+<Player ref={playerRef4} delay={500} size="100%" onComplete={() => {
+    return setTimeout(() => {
+      playerRef4?.current?.playFromBeginning();
+    }, 3000)
+}}
 icon={pig}/>
 </div>
 </div>
 <div className={styles.step}>
 <div className={styles.icons}>
-<Player ref={playerRef5} size="100%" onComplete={() => playerRef5.current?.playFromBeginning()}
+<Player ref={playerRef5} size="100%" onComplete={() => {
+    return setTimeout(() => {
+      playerRef5?.current?.playFromBeginning();
+    }, 2500)
+}}
 icon={manage}/>
 </div>
 <div className={styles.text}>

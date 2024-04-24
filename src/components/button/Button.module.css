@@ -13,6 +13,8 @@
     border: none;
     direction: rtl;
     transition: all ease-out 1s;
+    color:black;
+    text-decoration: none;
 }
 .button:hover{
 transform: scale(1.1);
