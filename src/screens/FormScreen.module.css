@@ -71,6 +71,8 @@ background: white;
         font-size: 16px;
         border: none;
         direction: rtl;
+        color:black;
+        text-decoration: none;
         transition: all ease-out 1s;
     }
     .button:hover{
@@ -151,6 +153,8 @@ background: white;
         border: none;
         direction: rtl;
         transition: all ease-out 1s;
+        color:black;
+        text-decoration: none;
     }
     .button:hover{
     transform: scale(1.1);
@@ -217,6 +221,8 @@ flex-direction: column;
     .button{
 background: white;
         height:3rem;
+        color:black;
+        text-decoration: none;
         width:100%;
         background: radial-gradient(circle, rgba(255,201,159,0.7030461842940301) 0%, rgba(255,244,0,0.7086484251903886) 100%);
         box-shadow: 0 0 8px 2px rgb(255, 255, 255);
@@ -303,6 +309,8 @@ background: white;
             font-size: 16px;
             border: none;
             direction: rtl;
+            color:black;
+            text-decoration: none;
             transition: all ease-out 1s;
         }
         .button:hover{
@@ -380,6 +388,8 @@ background: white;
             font-size: 16px;
             border: none;
             direction: rtl;
+            color:black;
+            text-decoration: none;
             transition: all ease-out 1s;
         }
         .button:hover{
@@ -452,6 +462,8 @@ background: white;
             box-shadow: 0 0 8px 2px rgb(255, 255, 255);
             border-radius: 10px;
             margin:2% auto;
+            color:black;
+            text-decoration: none;
             cursor: pointer;
             font-family: "RubikR";
             font-size: 16px;
@@ -530,6 +542,8 @@ background: white;
             margin:2% auto;
             cursor: pointer;
             font-family: "RubikR";
+            color:black;
+            text-decoration: none;
             font-size: 16px;
             border: none;
             direction: rtl;
